@@ -1,0 +1,13 @@
+{
+  "name": "electronsampleapp",
+  "version": "1.0.0",
+  "description": "electron js sample app",
+  "main": "main.js",
+  "author": "dtaraszkiewicz",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^5.0.1"
+  }
+}
