@@ -1,0 +1,13 @@
+html, body, .container-fluid {
+    height: 100%;
+    background-color: #cccccc;
+  }
+  
+  html {
+    -webkit-app-region: drag;
+  }
+  
+  .container-fluid {
+    padding: 25px;
+  }
+  
