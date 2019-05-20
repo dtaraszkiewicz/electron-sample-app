@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+
+  <title>To Do List</title>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="../styles.css">
+
+  <!-- Scripts -->
+  <script>
+    delete module.exports
+  </script>
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="./toDo.js"></script>
+
+</head>
+
+<body>
+  <div class="container-fluid">
+			<div class='row justify-content-center align-items-center'>
+					<a class="btn btn-primary" href="../index.html">Go back</a>
+				</div>
+			<div class='row justify-content-center align-items-center'>
+				<h1>To Do List</h1>
+			</div>
+      <div class='row justify-content-center align-items-center'>
+					<form action="javascript:;" onsubmit="addTask(this[0].value);">     
+                <div class="form-inline">
+										<input type="text" class="form-control" id="task"  placeholder="Enter task">
+										<button type="submit" class="btn btn-primary">Submit</button>
+								</div>
+          </form>
+			</div>
+			<div class="row pt-3">
+					<table class="table table-dark" id="taskTable">
+							<thead>
+								<tr>
+									<th scope="col">#</th>
+									<th scope="col">Task</th>
+									<th scope="col">Action</th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+			</div>
+  </div>
+</body>
+
+</html>
